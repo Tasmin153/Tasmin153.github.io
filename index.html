@@ -108,7 +108,6 @@
             <li><a href="#" data-filter=".web">Web Design</a></li>
             <li><a href="#" data-filter=".artificial_intelligence">Artificial Intelligence</a></li>
             <li><a href="#" data-filter=".computer_architecture">Computer Architecture</a></li>
-            <li><a href="#" data-filter=".misc">Miscellonous</a></li>
 
           </ol>
         </li>
@@ -198,15 +197,7 @@
           </div>
         </div>
 
-         <div class="col-sm-6 col-md-3 col-lg-3 misc">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="https://github.com/Tasmin153/Calendar--any-year-month" title="Calender: any year, any month" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Calender: any year, any month</h4>
-              </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
+      
 
       </div>
     </div>
@@ -236,9 +227,14 @@
           </div>
         </div>
         <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Organization" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div class="form-group">
           <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
           <p class="help-block text-danger"></p>
         </div>
+        
         <div id="success"></div>
         <button type="submit" class="btn btn-default btn-lg">Send Message</button>
       </form>
